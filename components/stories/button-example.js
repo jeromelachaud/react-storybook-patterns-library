@@ -5,7 +5,7 @@ import { storiesOf, action } from '@kadira/storybook';
 
 storiesOf('Button', module)
   .add('Button', () => (
-    <button className="button" onClick={action('clicked')}>My First Button</button>
+    <button className="button" onClick={action('clicked')}>Button</button>
   ))
   .add('Button Create', () => (
     <button className="button button button--cta-create" onClick={action('clicked')}>Button Create</button>
