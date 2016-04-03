@@ -9,8 +9,12 @@
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.3.14",
+    "classname": "0.0.0",
+    "classnames": "^2.2.3",
+    "raw-loader": "^0.5.1",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "style-loader": "^0.13.1"
   },
   "devDependencies": {
     "@kadira/storybook": "^1.1.0",

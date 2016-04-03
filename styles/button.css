@@ -1,0 +1,99 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  line-height: 2.25rem;
+  font-size: 1.25rem;
+  display: inline-block;
+  vertical-align: bottom;
+  min-width: 5.625rem;
+  height: 2.5rem;
+  padding: 0 1rem 0.25rem;
+  border-radius: 0.25rem;
+  background: #45a3e5;
+  box-shadow: rgba(0,0,0,0.25) 0 -0.25rem inset;
+  font-family: "Montserrat","Helvetica Neue",helvetica,arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  outline: none
+}
+
+.button:focus {
+  outline: none
+}
+
+.button:hover {
+  height: 2.375rem;
+  margin-top: 2px;
+  padding-bottom: 0.125rem;
+  background-color: #3b8bc3;
+  box-shadow: rgba(0,0,0,0.25) 0 -0.125rem inset
+}
+
+.button:active {
+  height: 2.25rem;
+  margin-top: 4px;
+  padding-bottom: 0;
+  background-color: #3072a0;
+  box-shadow: none
+}
+
+.button[disabled],.is-disabled {
+  height: 2.25rem;
+  margin-top: 4px;
+  padding-bottom: 0;
+  background-color: #ccc;
+  box-shadow: none;
+  cursor: not-allowed
+}
+
+.button--positive {
+  background-color: #66bf39
+}
+
+.button--positive:hover {
+  background-color: #57a230
+}
+
+.button--positive:active {
+  background-color: #478628
+}
+
+.button--warning {
+  background-color: #f35
+}
+
+.button--warning:hover {
+  background-color: #d92b48
+}
+
+.button--warning:active {
+  background-color: #b3243c
+}
+
+.button--cta-create {
+  background-color: #f5a23d
+}
+
+.button--cta-create:hover {
+  background-color: #d08a34
+}
+
+.button--cta-create:active {
+  background-color: #ac712b
+}
+
+.button--cta-play {
+  background-color: #864cbf
+}
+
+.button--cta-play:hover {
+  background-color: #7241a2
+}
+
+.button--cta-play:active {
+  background-color: #5e3586
+}
